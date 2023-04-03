@@ -2,8 +2,8 @@ Status Report as of April 3, 2023
 What was accomplished during the week:
 - Katherine:  My code now sucessfully lets the user choose any date within the next 330 days (previously could only choose dates in the current month).
 
-              My code sucessfully dodges a bot-detection strategy. Previously, Expedia would input the wrong locations if they detected suspicious traffic from a single
-              IP address. Now, I'm able to update the location in a way Expedia doesn't try to change.
+              My code sucessfully dodges a bot-detection strategy. Previously, Expedia would input the wrong locations if they detected suspicious traffic from
+              a single IP address. Now, I'm able to update the location in a way Expedia doesn't try to change.
               
               My code scrapes the cheapest flight prices and puts the flight information into a text document.
 - Murt:
@@ -11,14 +11,14 @@ What was accomplished during the week:
 - Vanessa:
 
 Challenges and issues team faced during the week:
-- Katherine:  Webscraping is much more precarious than I would have expected. My biggest fear is that the website will be re-designed/names of html elements will change
-              and my code will no longer run. Thankfully, up until now, Expedia has been very stable. The following were among my biggest challenges:
+- Katherine:  Webscraping is much more precarious than I would have expected. My biggest fear is that the website will be re-designed/names of html elements will
+              change and my code will no longer run. Thankfully, up until now, Expedia has been very stable. The following were among my biggest challenges:
                     - Selenium failed to click on buttons from time to time. Using JavaScriptExecutor fixed this.
                     - Searching for elements by cssSelector failed from time to time. Using search by xpath and adding wait statements often fixed this.
-                    - Interacting with the calender was different every day, which made certain test cases time dependent. For example, when running my program during the
-                      last week of March, Expedia suggested flights in April. I had to allow for the possibility that the user wanted to book in March and, thus, click
-                      back to the previous month. Now, at the beginning of April, this isn't necessary because the suggested dates are also in April. Testing throughout
-                      the month has been useful in spotting edge cases like this.
+                    - Interacting with the calender was different every day, which made certain test cases time dependent. For example, when running my program
+                      during the last week of March, Expedia suggested flights in April. I had to allow for the possibility that the user wanted to book in March
+                      and, thus, click back to the previous month. Now, at the beginning of April, this isn't necessary because the suggested dates are also in
+                      April. Testing throughout the month has been useful in spotting edge cases like this.
 - Murt:
 - Dan: 
 - Vanessa:
