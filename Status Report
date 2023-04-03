@@ -7,7 +7,8 @@ What was accomplished during the week:
               
               My code scrapes the cheapest flight prices and puts the flight information into a text document.
 - Murt:
-- Dan: 
+- Dan:        I began writing the javascript with a basic user defintion, as well as added jquery to the repository. The user info is now stored into a user object
+              once it is submitted.
 - Vanessa:
 
 Challenges and issues team faced during the week:
@@ -20,11 +21,11 @@ Challenges and issues team faced during the week:
                       and, thus, click back to the previous month. Now, at the beginning of April, this isn't necessary because the suggested dates are also in
                       April. Testing throughout the month has been useful in spotting edge cases like this.
 - Murt:
-- Dan: 
+- Dan: N/A
 - Vanessa:
 
 Goals for the next week:
 - Katherine:  I hope to populate the text file with information from 5 round-trip flights options per search (currently only scrapes one option one way).
 - Murt:
-- Dan: 
+- Dan:        I plan to expand the user definitions and interface to support multiple trips per user.
 - Vanessa:
