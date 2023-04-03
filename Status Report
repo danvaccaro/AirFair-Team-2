@@ -9,7 +9,8 @@ What was accomplished during the week:
 - Murt:
 - Dan:        I began writing the javascript with a basic user defintion, as well as added jquery to the repository. The user info is now stored into a user object
               once it is submitted.
-- Vanessa:
+
+- Vanessa:    I began writing the stylesheet to style the html code to appear how we want it to per our mockup image. I was successful in formatting the containers, but still need to work on container placement
 
 Challenges and issues team faced during the week:
 - Katherine:  Webscraping is much more precarious than I would have expected. My biggest fear is that the website will be re-designed/names of html elements will
@@ -22,10 +23,10 @@ Challenges and issues team faced during the week:
                       April. Testing throughout the month has been useful in spotting edge cases like this.
 - Murt:
 - Dan: N/A
-- Vanessa:
+- Vanessa:  Figuring out the best way to move elements of the webpage has proven to be difficult...
 
 Goals for the next week:
 - Katherine:  I hope to populate the text file with information from 5 round-trip flights options per search (currently only scrapes one option one way).
 - Murt:
 - Dan:        I plan to expand the user definitions and interface to support multiple trips per user.
-- Vanessa:
+- Vanessa:    I plan to finalize the stylesheet so that the webpage looks exactly how we had planned.

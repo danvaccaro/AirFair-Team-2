@@ -2,27 +2,33 @@
 
 <html lang = "en">
     <head>
+        <meta charset="UTF-8" />
         <title>Home</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <img src=" img/logo.png" />
-        <div>
-            <input type="text" id="email" value="User email" />
+        <div id="image-container">
+            <img src=" img/logo.png" />
         </div>
-        <div>
-            <input type="text" id="local-airport" value="Preferred local airport" />
-        </div>
-        <div>
-            <input type="text" id="dest-airport" value="Destination airport" />
-        </div>
-        <div>
-            <input type="date" id="depart-date" value="Departure dates" />
-        </div>
-        <div>
-            <input type="date" id="return-date" value="Return dates" />
-        </div>
-        <div>
-            <input type="number" id="max-price" value="$" step=".01" />
+        <div id="input-container"></div>
+            <div>
+                <input type="text" id="email" value="User E-mail" />
+            </div>
+            <div>
+                <input type="text" id="local-airport" value="Preferred Local Airport" />
+            </div>
+            <div>
+                <input type="text" id="dest-airport" value="Destination Airport" />
+            </div>
+            <div>
+                <input type="date" id="depart-date" value="Departure Date" />
+            </div>
+            <div>
+                <input type="date" id="return-date" value="Return Date" />
+            </div>
+            <div>
+                <input type="number" id="max-price" value="Willing Price to Pay" step=".01" />
+            </div>
         </div>
         <script src="scripts.js"></script>
     </body>

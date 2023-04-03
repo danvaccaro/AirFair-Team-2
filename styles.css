@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: white;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+#image-container {
+    float: left;
+    margin-right: 20px;
+}
+
+#input-container {
+    float: left;
+    text-align: left;
+    margin-top: 500px;
+    padding-top: 50px;
+}
+
+#input-container div{
+    margin-bottom: 10px;
+}
+  
+#email,
+#local-airport,
+#dest-airport,
+#depart-date,
+#return-date,
+#max-price {
+    display: block;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
