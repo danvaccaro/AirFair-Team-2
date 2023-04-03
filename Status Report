@@ -5,6 +5,9 @@ What was accomplished during the week:
               IP address. Now, I'm able to update the location in a way Expedia doesn't try to change.
               
               My code scrapes the cheapest flight prices and puts the flight information into a text document.
+- Murt:
+- Dan: 
+- Vanessa:
 
 Challenges and issues team faced during the week:
 - Katherine:  Webscraping is much more precarious than I would have expected. My biggest fear is that the website will be re-designed/names of html elements will change
@@ -15,5 +18,12 @@ Challenges and issues team faced during the week:
                       last week of March, Expedia suggested flights in April. I had to allow for the possibility that the user wanted to book in March and, thus, click
                       back to the previous month. Now, at the beginning of April, this isn't necessary because the suggested dates are also in April. Testing throughout
                       the month has been useful in spotting edge cases like this.
+- Murt:
+- Dan: 
+- Vanessa:
+
 Goals for the next week:
 - Katherine:  I hope to populate the text file with information from 5 round-trip flights options per search (currently only scrapes one option one way).
+- Murt:
+- Dan: 
+- Vanessa:
