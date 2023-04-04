@@ -6,7 +6,7 @@ What was accomplished during the week:
               a single IP address. Now, I'm able to update the location in a way Expedia doesn't try to change.
               
               My code scrapes the cheapest flight prices and puts the flight information into a text document.
-- Murt:
+- Murt:       Research on Heroku.
 - Dan:        I began writing the javascript with a basic user defintion, as well as added jquery to the repository. The user info is now stored into a user object
               once it is submitted.
 
@@ -21,12 +21,13 @@ Challenges and issues team faced during the week:
                       during the last week of March, Expedia suggested flights in April. I had to allow for the possibility that the user wanted to book in March
                       and, thus, click back to the previous month. Now, at the beginning of April, this isn't necessary because the suggested dates are also in
                       April. Testing throughout the month has been useful in spotting edge cases like this.
-- Murt:
+- Murt:     Troubleshooting GitHub student developer pack. Also decided to get rid of some work regarding hosting our website with AWS, as Heroku looks like a better
+            option.
 - Dan: N/A
 - Vanessa:  Figuring out the best way to move elements of the webpage has proven to be difficult...
 
 Goals for the next week:
 - Katherine:  I hope to populate the text file with information from 5 round-trip flights options per search (currently only scrapes one option one way).
-- Murt:
+- Murt:       I hope to download the GitHub student developer pack and experiment with Heroku.
 - Dan:        I plan to expand the user definitions and interface to support multiple trips per user.
 - Vanessa:    I plan to finalize the stylesheet so that the webpage looks exactly how we had planned.
