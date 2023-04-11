@@ -3,14 +3,13 @@ Status Report as of April 10, 2023
 What was accomplished during the week:
 - Katherine:  While I did not upload new code, I ran the program throughout the week making sure it continued to work (e.g. testing that the calender still interacted
               correctly with new dates, no bugs became apparent.)
-- Murt:       working on Heroku as part of Lab 11 and Lab 12 to learn the basics
+- Murt:       working on Heroku as part of Lab 11 and Lab 12 to learn the basics so i can continue to build on the project
 - Dan:        N/A
 - Vanessa:    I began writing the stylesheet to style the html code to appear how we want it to per our mockup image. I was successful in formatting the containers, but still need to work on container placement
 
 Challenges and issues team faced during the week:
 - Katherine: N/A
-- Murt:     Troubleshooting GitHub student developer pack. Also decided to get rid of some work regarding hosting our website with AWS, as Heroku looks like a better
-            option.
+- Murt:     Troubleshooting GitHub student developer pack. Also decided to get rid of some work regarding hosting our website with AWS, as Heroku looks like a better option.
 - Dan: N/A
 - Vanessa:  N/A
 
