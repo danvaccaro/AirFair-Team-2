@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="logo-container">
+        <img id="logo" src=" img/logo.png" alt="AirFair logo depicting plane" />
+        <h1> Ready to soar and save? </h1>
+        <p> Input your dream destinations and we’ll email you deals that fit your budget </p>
+    </div>
+
+    <div id="Lisbon">
+        <img src="Lisbon.jpeg" alt="photo of train in Lisbon, Portugal" />
+    </div>
+    <form action="" id="form">
+        <div id="input-container">
+            <input type="text" type="text" id="email" placeholder="E-mail" onfocus="this.value = ''" />
+            <div>
+                <input type="text" id="local-airport" placeholder="Local Airport" onfocus="this.value = ''" />
+            </div>
+            <div>
+                <input type="text" id="dest-airport" placeholder="Destination Airport" onfocus="this.value = ''" />
+            </div>
+            <div>
+                <input type="date" id="depart-date" placeholder="Departure Date" />
+            </div>
+            <div>
+                <input type="date" id="return-date" placeholder="Return Date" />
+            </div>
+            <div>
+                <input type="text" id="max-price" placeholder="Maximum Price" step="10" onfocus="this.value = ''" />
+            </div>
+            <button id="bttn" type="submit">Submit</button>
+        </div>
+    </form>
+
+    </div>
+    <script type="module" src="./scripts.js"></script>
+</body>
+
+</html>
