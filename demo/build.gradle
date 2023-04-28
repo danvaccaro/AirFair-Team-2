@@ -1,0 +1,54 @@
+plugins {
+	//id 'java'
+	id 'application'
+	id 'org.springframework.boot' version '3.0.4'
+	id 'io.spring.dependency-management' version '1.1.0'
+    id "com.microsoft.azure.azurewebapp" version "1.1.0"
+}    
+
+
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    implementation('org.seleniumhq.selenium:selenium-java:3.14.0')
+}
+
+
+//To create a runnable jar  in GradleJavaProject\build\libs then java -jar GradleJavaProject.jar
+apply plugin: 'java'
+mainClassName = 'main'
+
+
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
+
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'main'
+        )
+    }
+}
+
+azurewebapp {
+    subscription = 'c8aa3ee8-573d-4b90-b689-bca6c9c249d0'
+    resourceGroup = 'WebScrape'
+    appName = 'expediascraper'
+    pricingTier = 'F1' 
+    region = 'westus' 
+    runtime {
+        os = 'Linux' 
+        webContainer = 'Tomcat 9.0'
+        javaVersion = 'Java 8'
+    }
+}
+
+/*tasks.named('test') {
+	useJUnitPlatform()
+}*/

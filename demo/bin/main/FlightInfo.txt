@@ -1,0 +1,11 @@
+Flight 0: 1h 20m flight
+Condor 3300 operated by Alaska Airlines
+Economy/Coach (Y)/endFlight/ 
+Flight 1: 11h 35m flight
+Condor 2097
+Economy/Coach (Y)/endFlight/ 
+Flight 2: 1h 50m flight
+Condor 242 operated by Lufthansa
+Economy/Coach (Y)/endFlight/ 
+/endOption/ 
+
