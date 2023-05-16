@@ -1,4 +1,4 @@
-AirFair
+AirFair (CS 120 Web Programming & Engineering - Semester Project)
 ---------------------------------------------------------------------------------------------------
 CEOs  Murt Sayeed, Dan Vaccaro, Vanessa Venkataraman, Katherine Wadhwani
 
